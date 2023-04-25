@@ -1,0 +1,27 @@
+.pop__up {
+    background: rgba(0, 0, 0, 0.295);
+    width:max-content;
+    display: block;
+    padding: 1.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    text-align: center;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    
+}
+
+.icon {
+    font-size: 75px;
+    color: var(--color-primary-variant);
+    
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
